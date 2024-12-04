@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+
+  height: 100vh;
+}
+
+.app {
+  background: #f3eded;
+  max-width: 1200px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  margin: 0 auto;
+}
+main {
+  flex: 1;
+}
